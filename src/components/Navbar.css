@@ -1,0 +1,88 @@
+.nav {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 80px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-os .logo-img {
+  width: 160px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.contact {
+  width: 200px;
+  height: 48px;
+  padding: 12px 20px;
+  border-radius: 40px;
+  border: 1px solid #1a1a1a;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact:hover {
+  border-color: #0066cc;
+  color: #0066cc;
+  background: #f0faff;
+}
+
+/* Tablet View */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 10px 24px;
+  }
+
+  .logo-os .logo-img {
+    width: 120px;
+    height: 70px;
+  }
+
+  .contact {
+    width: 160px;
+    height: 42px;
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 480px) {
+  .nav {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-os .logo-img {
+    width: 100px;
+    height: 60px;
+  }
+
+  .button-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contact {
+    width: 140px;
+    height: 38px;
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}

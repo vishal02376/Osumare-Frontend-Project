@@ -1,0 +1,124 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #ffffff;
+    max-width: 1440px;
+    margin:0 auto;
+    font: Montserrat;
+    }
+    
+    .middleText h1{
+    line-height: 48px;
+    margin-top: 115px;
+    }
+    
+    .leftBox{
+    width: 507px;
+    height: 342px;
+    }
+    
+    .leftBox .mainPic{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:8px;
+    }
+    
+    .rightBox{
+    width:733px;
+    height:385px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    padding:20px;
+    }
+    
+    .rightBox h2{
+    font-size:24px;
+    font-weight:600;
+    margin:0;
+    }
+    
+    .rightBox p{
+    font-family: Open Sans;
+    font-weight:400;
+    font-size:24px;
+    line-height:36px;
+    letter-spacing:0%;
+    }
+    
+    .lineThing{
+    width:100%;
+    height:1px;
+    background-color:#eee;
+    }
+    
+    .goButton{
+    padding:12px 24px;
+    background-color:#007bff;
+    color:white;
+    border:none;
+    border-radius:4px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    align-self:flex-start;
+    transition:background-color 0.3s;
+    border-radius:20px;
+    width:200px;
+    }
+    
+    .goButton:hover{
+    background-color:#0056b3;
+    }
+    
+    @media(max-width:700px){
+        .rightBox p {
+            line-height: 28px;
+        }
+    .heroSection{
+    flex-direction:column;
+    display:flex;
+    }
+    .heroSection .leftBox .mainPic{
+    width:92%;
+    position:relative;
+    left:16px;
+    }
+    .heroSection .leftBox{
+    max-width:430px;
+    }
+    .heroSection .rightBox{
+    max-width:430px;
+    }
+    .middleText h1{
+    font-size:24px;
+    line-height:40px;
+    width:98%;
+    font-weight: 525;
+    }
+    .rightBox h2{
+    font-size:20px;
+    line-height:32px;
+    }
+    .rightBox{
+    gap:10px;
+    }
+    .rightBox button{
+    justify-content:center;
+    }
+    .rightBox p{
+    font-size:14px;
+    }
+    }
+    
+    @media(max-width:490px){
+    .heroSection .leftBox{
+    max-width:380px;
+    }
+    .heroSection .rightBox{
+    max-width:330px;
+    }
+    }

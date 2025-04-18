@@ -1,0 +1,139 @@
+.mainBox {
+  width: 100%;
+  padding: 60px 20px;
+  background: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.servicearea {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bigheading {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  color: #333;
+  margin-bottom: -50px;
+}
+
+.smalltext {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid-Box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-Data {
+  padding: 25px 15px;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iconspot {
+  width: 52px;
+  height: 52px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: #222;
+}
+
+.card-Desc{
+  font-size: 0.95rem;
+  text-align: center;
+  margin: 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media(max-width: 800px) {
+  .mainBox {
+      margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mainBox {
+      padding: 80px 40px;
+  }
+  
+  .servicearea {
+      gap: 50px;
+  }
+  
+  .bigheading {
+      font-size: 2.5rem;
+  }
+  
+  .smalltext {
+      font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainBox {
+      padding: 91px 81px;
+  }
+  
+  .servicearea {
+      gap: 68px;
+  }
+  
+  .grid-Box{
+      grid-template-columns: repeat(4, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .servicearea {
+      padding: 40px 15px;
+  }
+  
+  .bigheading {
+    font-size: 28px;
+    line-height: 41px;
+    margin-bottom: -15px;
+  
+  }
+  
+  .smalltext {
+      font-size: 1rem;
+      line-height: 32px;
+  }
+  
+  .grid-Box {
+      grid-template-columns: 1fr;
+  }
+}

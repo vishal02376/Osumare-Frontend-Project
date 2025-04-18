@@ -1,0 +1,49 @@
+@media(max-width:700px){
+    .video .vis{
+        width: 300px ! important;
+    }
+    .video p{
+        font-size: 15px !important;
+        line-height: 24px !important;
+    }
+    .Faq{
+        width: 300px;
+    }
+    .video h1{
+        font-size: 20px !important;
+        font-weight: 425px !important;
+    }
+}
+
+.Faq{
+    margin-top: 40px;
+}
+.video h1{
+    color:  #000C1A;
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+             
+.video-data{
+    position: relative;
+    top: -74px;
+}
+.mar{
+    margin-top: 50px;
+}
+.video p{
+    color: #333333;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+}

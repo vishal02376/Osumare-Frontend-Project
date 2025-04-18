@@ -1,0 +1,178 @@
+
+.property-heading h1{
+    color: #000C1A;
+
+}
+.property-heading{
+    margin-top: 90px;
+}
+
+.property-main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.property-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.property-heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.property-heading p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.Property-Container {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    gap: 98px;
+    align-items: center;
+}
+
+.Property-Left-img {
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Property-Left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Property-Right-Cont {
+    width: 682px;
+    min-height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.Property-Right-Cont h1 {
+   
+    color:  #000C1A;;
+    margin: 0;
+    font-size: 36;
+    font-weight: 700;
+}
+
+.Property-Right-Cont p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+
+
+.btns{
+    padding: 12px 24px;
+    background-color: #0066FF;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
+
+    border-radius: 32px;
+    width: 200px;
+}
+
+.btns {
+    background-color: #0066FF;;
+}
+
+
+@media (max-width: 1024px) {
+    .Property-Container {
+        gap: 50px;
+    }
+    
+    .Property-Left-img {
+        width: 400px;
+        height: 350px;
+    }
+    
+    .Property-Right-Cont {
+        width: 100%;
+        min-height: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Property-Container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .Property-Left-img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .Property-Right-Cont {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .Property-Right-Cont h1{
+        font-size: 22px;
+        font-weight: 525;
+        line-height: 37px;
+        text-align: center;
+    }
+    .Property-Right-Cont p{
+        line-height: 28px;
+    }
+    
+    .property-heading h1 {
+        font-size: 22px;
+    font-weight: 525;
+    line-height: 37px;
+    }
+    
+    .property-heading p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 600px) {
+    .property-main {
+        padding: 10px;
+    }
+    
+    .property-heading h1 {
+        font-size: 1.8rem;
+    }
+    
+    .Property-Left-img {
+        height: 250px;
+    }
+    
+    .Property-Right-Cont h1 {
+        font-size: 1.5rem;
+    }
+    
+    .Property-Right-Cont p {
+        font-size: 0.9rem;
+    }
+    
+    .btns {
+        width: 100%;
+    }
+}

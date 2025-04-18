@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2285a0cc.css",
+    "main.js": "/static/js/main.f7d91f8c.js",
+    "static/media/video.png": "/static/media/video.44fa6b5bfa0ad4e71fe9.png",
+    "static/media/bro.png": "/static/media/bro.3f20b28ce20dfd59e52d.png",
+    "static/media/Faq.png": "/static/media/Faq.dda9372816700cd8e119.png",
+    "static/media/Form.png": "/static/media/Form.3fb2192b404f8dc9648f.png",
+    "static/media/icon8.png": "/static/media/icon8.ff4755bc2e6b1018cc3e.png",
+    "static/media/header.png": "/static/media/header.11b7dadc6c1fe224c4dc.png",
+    "static/media/teacher.png": "/static/media/teacher.949bde1efd0f83f58218.png",
+    "static/media/cuate.png": "/static/media/cuate.55ebde70dc5cca91cc94.png",
+    "static/media/icon7.png": "/static/media/icon7.0f5cd8b140d7ec05a9fc.png",
+    "static/media/logo.png": "/static/media/logo.363ece9f4d402ac578f6.png",
+    "static/media/icon1.png": "/static/media/icon1.5833d3b581e1b7e136d1.png",
+    "static/media/icon5.png": "/static/media/icon5.923931b0df4af0683cd7.png",
+    "static/media/icon4.png": "/static/media/icon4.21d1e48e18b014f99f5c.png",
+    "index.html": "/index.html",
+    "main.2285a0cc.css.map": "/static/css/main.2285a0cc.css.map",
+    "main.f7d91f8c.js.map": "/static/js/main.f7d91f8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2285a0cc.css",
+    "static/js/main.f7d91f8c.js"
+  ]
+}
