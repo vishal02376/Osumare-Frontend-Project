@@ -62,20 +62,20 @@ Developed using **React.js** and **CSS** (no Tailwind used) — clean, fast, and
 
 ### 📱 Mobile View
 
-![m1](https://github.com/user-attachments/assets/6bcce1f7-8e59-47dd-9f8b-6bc97ff47d82)
+![m1](https://github.com/user-attachments/assets/6bcce1f7-8e59-47dd-9f8b-6bc97ff47d82)    ![m4](https://github.com/user-attachments/assets/320747ee-c197-48a3-8e40-16fa752c1187)
 
 
 
-![m2](https://github.com/user-attachments/assets/b6665bd5-78cf-45c6-9be2-60d263fcfdcf)
+![m2](https://github.com/user-attachments/assets/b6665bd5-78cf-45c6-9be2-60d263fcfdcf)   ![m3](https://github.com/user-attachments/assets/d9005086-6b87-4782-96c4-46d5a1c7de05)
 
 
 
 
-![m3](https://github.com/user-attachments/assets/d9005086-6b87-4782-96c4-46d5a1c7de05)
 
 
 
-![m4](https://github.com/user-attachments/assets/320747ee-c197-48a3-8e40-16fa752c1187)
+
+
 
 
 
@@ -102,10 +102,22 @@ git clone https://github.com/your-username/osumare-landing-page.git
 cd osumare-landing-page
 npm install
 npm start
+```
 
 
 
 
+
+🔗 Live Demo 
+
+
+Live Preview: https://osumarefrontend.netlify.app/
+
+
+
+🧑‍🎓 Author
+
+Vishal Kumar Singh
 
 
 
