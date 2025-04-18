@@ -1,5 +1,11 @@
 # 🌐 Osumare Landing Page
 
+
+🔗 Live Demo 
+
+
+Live Preview: https://osumarefrontend.netlify.app/
+
 This is a **responsive landing page**  
 Developed using **React.js** and **CSS** (no Tailwind used) — clean, fast, and mobile-friendly.
 
@@ -108,10 +114,7 @@ npm start
 
 
 
-🔗 Live Demo 
 
-
-Live Preview: https://osumarefrontend.netlify.app/
 
 
 
